@@ -1,8 +1,16 @@
 body {
   font-family: Helvetica, sans-serif;
-  margin-left: 25px;
+  margin: 5px 0 5px 25px;
+  padding: 5px 0 5px 0;
+}
+hr {
+  border: 0;
+  height: 5px;
+  background-color: #ccc;
+  margin: 10px 0;
 }
 
 ul {
   list-style-type: none;
+  margin-left: -40px;
 }
