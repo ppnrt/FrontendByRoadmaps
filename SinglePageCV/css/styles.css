@@ -36,6 +36,8 @@ nav ul li a {
 }
 
 li a:hover {
+  cursor: pointer;
+  text-transform: capitalize;
   color: var(--tertiary-color);
 }
 
