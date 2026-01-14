@@ -1,16 +1,53 @@
-body {
-  font-family: Helvetica, sans-serif;
-  margin: 5px 0 5px 25px;
-  padding: 5px 0 5px 0;
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap");
+/* Variables */
+:root {
+  --primary-color: #222831;
+  --secondary-color: #539165;
+  --tertiary-color: #3f497f;
+  --background-color: #f8f5e4;
 }
+/* Reset */
+/* * {
+} */
+
+body {
+  font-family: "Funnel Display", sans-serif;
+  font-size: 14px;
+  margin: 2.5px 25px 2.5px 25px;
+  padding: 5px 0 5px 0;
+  background-color: var(--background-color);
+  color: var(--primary-color);
+}
+
 hr {
   border: 0;
   height: 5px;
-  background-color: #ccc;
-  margin: 10px 0;
+  background-color: var(--primary-color);
 }
 
-ul {
+nav ul {
   list-style-type: none;
   margin-left: -40px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+li a:hover {
+  color: var(--tertiary-color);
+}
+
+section ul {
+  list-style-type: square;
+  margin-left: -25px;
+}
+
+h2 {
+  color: var(--secondary-color);
+}
+
+h3 {
+  color: var(--tertiary-color);
 }
