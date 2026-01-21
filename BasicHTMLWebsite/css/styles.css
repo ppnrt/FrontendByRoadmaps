@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap");
+/* Reset */
+* {
+  margin: 20px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Funnel Display", sans-serif;
+}
+
+* {
+  text-decoration: none;
+  list-style-type: none;
+  color: whitesmoke;
+  background-color: brown;
+}
+
+nav a {
+  margin: -20px;
+}
+
+nav:first-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul:first-child ul li a {
+  font-size: larger;
+  font-variant: normal;
+  font-weight: 600;
+}
+
+nav ul:first-child {
+  display: flex;
+  align-items: center;
+}
+nav ul:last-child {
+  text-align: center;
+  display: flex;
+}
+
+nav:last-child {
+  justify-items: center;
+  text-align: center;
+}
+
+main article {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+main article section {
+  border: 1px solid whitesmoke;
+  padding: 15px;
+  width: 100%;
+  text-align: left;
+}
+
+.line {
+  border-top: 1px solid whitesmoke;
+  margin: 15px 0;
+  padding: -15px;
+}
+
+main article section:last-child ul li {
+  list-style-type: square;
+}
+
+main aside h3 {
+  text-align: left;
+  margin: 25px 45px;
+}
+main aside ul {
+  justify-content: space-between;
+  display: flex;
+  text-align: left;
+  gap: 25px;
+  margin: 0 45px;
+}
+main aside li {
+  border: 1px solid whitesmoke;
+  border-radius: 25px;
+  padding: 15px;
+}
+main aside a ul li {
+  padding: 0;
+  margin: 5px -15px;
+  border: none;
+}
+
+footer {
+  margin: 125px 0 25px 0;
+  justify-items: center;
+  text-align: center;
+}
